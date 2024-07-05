@@ -1,0 +1,135 @@
+html {
+    font-size: 80%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins';
+    font-weight:900;
+    background-color:#e0f2f1;
+ }
+
+ .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+
+ header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    background-color:cadetblue;
+    border-radius: 1em;
+    padding: 1em 2em;
+ }
+
+ nav {
+    margin: 0.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2em;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    position: relative ;
+}
+
+.name {
+    font-size: 1.3em;
+    color: white;
+}
+
+.profile_picture {
+    justify-content: center;
+    text-align: justify;
+    margin-left: 328px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    text-decoration:overline;
+}
+
+.intro {
+    text-align: justify;
+    background-color: cadetblue;
+    border-radius: 1em;
+    padding: 1em 2em;
+}
+
+.point-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;   
+    background-color:cadetblue; 
+    margin-bottom: 15px;
+    border-radius: 1em;
+    padding: 1em 2em;
+ }
+
+ .point-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    background-color: cadetblue;  
+    margin-bottom: 15px;
+    border-radius: 1em;
+    padding: 1em 2em;
+ }
+
+ .point-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: cadetblue;   
+    margin-bottom: 15px;
+    border-radius: 1em;
+    padding: 1em 2em;
+ }
+
+ .point-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    background-color: cadetblue;
+    margin-bottom: 15px;
+    border-radius: 1em;
+    padding: 1em 2em;
+ }
+
+ .point-5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    margin-bottom: 150px;
+    background-color:cadetblue;
+    margin-bottom: 250px;
+    border-radius: 1em;
+    padding: 1em 2em;
+ }
+
+ .closing {
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-wrap:wrap;
+    text-align: center;
+    color: cadetblue;
+ }
+
+ .links {
+   background-color: cadetblue;
+   border-radius: 1em;
+   padding: 1em 2em; 
+   gap: 3em;
+   display: flex;
+ }
